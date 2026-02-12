@@ -1,0 +1,29 @@
+{
+  "name": "devinsight",
+  "version": "1.0.0",
+  "description": "A command-line tool that analyzes Git repositories and provides developer productivity insights",
+  "main": "bin/devinsight.js",
+  "bin": {
+    "devinsight": "./bin/devinsight.js"
+  },
+  "scripts": {
+    "start": "node bin/devinsight.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "git",
+    "productivity",
+    "analyzer",
+    "developer-tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.3",
+    "commander": "^11.1.0",
+    "inquirer": "^8.2.5",
+    "simple-git": "^3.21.0"
+  }
+}
