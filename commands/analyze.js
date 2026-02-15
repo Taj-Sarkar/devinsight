@@ -12,7 +12,7 @@ const { getProjectName, getDependenciesSummary, hasPackageJson } = require('../u
 const { isGitRepository } = require('../utils/gitUtils');
 
 async function analyzeCommand() {
-  console.log(chalk.cyan.bold('\n📊 Repository Analysis\n'));
+  console.log(chalk.cyan.bold('\n Repository Analysis\n'));
 
   // Check if we're in a Git repository
   const isGit = await isGitRepository();
