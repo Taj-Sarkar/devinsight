@@ -10,7 +10,7 @@ DevInsight CLI helps developers understand their project structure, track Git ac
 
 ---
 
-##  Features
+## Features
 
 - **📊 Repository Analysis** - Scan project structure, detect languages, and analyze dependencies
 - **📈 Developer Dashboard** - Track Git activity, commits, and file changes
@@ -23,43 +23,30 @@ DevInsight CLI helps developers understand their project structure, track Git ac
 
 ---
 
-##  Installation
+## Installation
 
 ### Prerequisites
 
 - Node.js >= 14.0.0
-- npm or yarn
 - Git (for full functionality)
 
-### Install Dependencies
+### Install
 
-```bash
-npm install
-```
+Run directly with npx:
 
-### Link CLI Globally (Optional)
+    npx @tajsarkar/devinsight
 
-To use `devinsight` command globally:
+Or install globally:
 
-```bash
-npm link
-```
-
-Or run directly:
-
-```bash
-node bin/devinsight.js
-```
+    npm install -g @tajsarkar/devinsight
 
 ---
 
-##  Usage
+## Usage
 
 ### Command Structure
 
-```bash
-devinsight <command> [options]
-```
+    devinsight <command> [options]
 
 ### Available Commands
 
@@ -83,7 +70,7 @@ This will display a menu where you can select actions interactively.
 
 ---
 
-##  Command Examples
+## Command Examples
 
 ### 1. Analyze Repository
 
@@ -313,7 +300,7 @@ The generated report (`devinsight-report.md`) can be viewed in any Markdown view
 
 ---
 
-##  Project Structure
+## Project Structure
 
 ```
 devinsight/
@@ -336,7 +323,7 @@ devinsight/
 
 ---
 
-##  Technologies Used
+## Technologies Used
 
 - **[Commander.js](https://github.com/tj/commander.js)** - CLI framework for command parsing
 - **[simple-git](https://github.com/steveukx/git-js)** - Git integration
@@ -347,7 +334,7 @@ devinsight/
 
 ---
 
-##  GitHub Copilot CLI Usage
+## GitHub Copilot CLI Usage
 
 This project was developed with assistance from **GitHub Copilot CLI** to accelerate development and improve code quality.
 
@@ -433,7 +420,7 @@ Using Copilot CLI reduced development time by approximately **40-50%** by:
 
 ---
 
-##  Code Quality
+## Code Quality
 
 ### Best Practices Implemented
 
@@ -447,7 +434,7 @@ Using Copilot CLI reduced development time by approximately **40-50%** by:
 
 ---
 
-##  Error Handling
+## Error Handling
 
 DevInsight CLI handles common errors gracefully:
 
@@ -460,7 +447,7 @@ DevInsight CLI handles common errors gracefully:
 
 ---
 
-##  Screenshots
+## Screenshots
 
 ### Interactive Mode
 
@@ -493,7 +480,7 @@ DevInsight CLI handles common errors gracefully:
 
 ---
 
-##  Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -505,13 +492,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-##  License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-##  Acknowledgments
+## Acknowledgments
 
 - Built with ❤️ using Node.js
 - Enhanced with GitHub Copilot CLI
@@ -519,7 +506,7 @@ This project is licensed under the MIT License.
 
 ---
 
-##  Support
+## Support
 
 If you encounter any issues or have questions:
 
