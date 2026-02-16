@@ -1,5 +1,5 @@
 {
-  "name": "devinsight",
+  "name": "@tajsarkar/devinsight",
   "version": "1.0.0",
   "description": "A command-line tool that analyzes Git repositories and provides developer productivity insights",
   "main": "bin/devinsight.js",
