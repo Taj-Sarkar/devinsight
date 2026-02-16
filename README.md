@@ -12,14 +12,14 @@ DevInsight CLI helps developers understand their project structure, track Git ac
 
 ##  Features
 
-- ** Repository Analysis** - Scan project structure, detect languages, and analyze dependencies
-- ** Developer Dashboard** - Track Git activity, commits, and file changes
-- ** Smart Insights** - Identify frequently modified files, large files, and refactor candidates
-- ** Health Check** - Perform quality checks and get repository health scores
-- ** Report Generation** - Create comprehensive Markdown reports
-- ** Interactive Mode** - User-friendly menu-driven interface
-- ** Dependency Analysis** - Parse and analyze package.json dependencies
-- ** Task Detection** - Find TODO, FIXME, and HACK comments across your codebase
+- **📊 Repository Analysis** - Scan project structure, detect languages, and analyze dependencies
+- **📈 Developer Dashboard** - Track Git activity, commits, and file changes
+- **💡 Smart Insights** - Identify frequently modified files, large files, and refactor candidates
+- **🏥 Health Check** - Perform quality checks and get repository health scores
+- **📝 Report Generation** - Create comprehensive Markdown reports
+- **🎯 Interactive Mode** - User-friendly menu-driven interface
+- **📦 Dependency Analysis** - Parse and analyze package.json dependencies
+- **✅ Task Detection** - Find TODO, FIXME, and HACK comments across your codebase
 
 ---
 
@@ -216,8 +216,8 @@ devinsight insights
 ┌──────────────────────┬────────────┬─────────────────────────────┐
 │ File                 │ Edit Count │ Insight                     │
 ├──────────────────────┼────────────┼─────────────────────────────┤
-│ src/app.js           │ 67         │   Frequently edited       │
-│ src/config.js        │ 34         │  Active development area  │
+│ src/app.js           │ 67         │   Frequently edited         │
+│ src/config.js        │ 34         │  Active development area    │
 │ src/utils/format.js  │ 12         │ ✓ Normal activity           │
 └──────────────────────┴────────────┴─────────────────────────────┘
 
