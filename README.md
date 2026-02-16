@@ -10,20 +10,20 @@ DevInsight CLI helps developers understand their project structure, track Git ac
 
 ---
 
-## 🚀 Features
+##  Features
 
-- **📊 Repository Analysis** - Scan project structure, detect languages, and analyze dependencies
-- **📈 Developer Dashboard** - Track Git activity, commits, and file changes
-- **💡 Smart Insights** - Identify frequently modified files, large files, and refactor candidates
-- **🏥 Health Check** - Perform quality checks and get repository health scores
-- **📝 Report Generation** - Create comprehensive Markdown reports
-- **🎯 Interactive Mode** - User-friendly menu-driven interface
-- **📦 Dependency Analysis** - Parse and analyze package.json dependencies
-- **✅ Task Detection** - Find TODO, FIXME, and HACK comments across your codebase
+- ** Repository Analysis** - Scan project structure, detect languages, and analyze dependencies
+- ** Developer Dashboard** - Track Git activity, commits, and file changes
+- ** Smart Insights** - Identify frequently modified files, large files, and refactor candidates
+- ** Health Check** - Perform quality checks and get repository health scores
+- ** Report Generation** - Create comprehensive Markdown reports
+- ** Interactive Mode** - User-friendly menu-driven interface
+- ** Dependency Analysis** - Parse and analyze package.json dependencies
+- ** Task Detection** - Find TODO, FIXME, and HACK comments across your codebase
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -53,7 +53,7 @@ node bin/devinsight.js
 
 ---
 
-## 📖 Usage
+##  Usage
 
 ### Command Structure
 
@@ -83,7 +83,7 @@ This will display a menu where you can select actions interactively.
 
 ---
 
-## 🎯 Command Examples
+##  Command Examples
 
 ### 1. Analyze Repository
 
@@ -104,7 +104,7 @@ devinsight analyze
 **Example Output:**
 
 ```
-📊 Repository Analysis
+ Repository Analysis
 
 ═══ Project Overview ═══
 
@@ -154,7 +154,7 @@ devinsight dashboard
 **Example Output:**
 
 ```
-📈 Developer Productivity Dashboard
+ Developer Productivity Dashboard
 
 ═══ Git Activity ═══
 
@@ -209,15 +209,15 @@ devinsight insights
 **Example Output:**
 
 ```
-💡 Smart Insights
+ Smart Insights
 
 ═══ Most Frequently Modified Files ═══
 
 ┌──────────────────────┬────────────┬─────────────────────────────┐
 │ File                 │ Edit Count │ Insight                     │
 ├──────────────────────┼────────────┼─────────────────────────────┤
-│ src/app.js           │ 67         │ ⚠️  Frequently edited       │
-│ src/config.js        │ 34         │ ⚡ Active development area  │
+│ src/app.js           │ 67         │   Frequently edited       │
+│ src/config.js        │ 34         │  Active development area  │
 │ src/utils/format.js  │ 12         │ ✓ Normal activity           │
 └──────────────────────┴────────────┴─────────────────────────────┘
 
@@ -253,7 +253,7 @@ devinsight health
 **Example Output:**
 
 ```
-🏥 Repository Health Check
+ Repository Health Check
 
 ✓ Passed Checks:
 
@@ -265,17 +265,17 @@ devinsight health
 
 ⚠️  Warnings:
 
-⚠️ No test directory detected
+ No test directory detected
    → Consider adding tests to improve code quality
 
-⚠️ Missing .gitignore file
+ Missing .gitignore file
    → Add .gitignore to exclude unnecessary files from Git
 
 ═══ Health Score ═══
 
-👍 75% (5/7 checks passed)
+ 75% (5/7 checks passed)
 
-👍 Good! Address the warnings to improve further.
+ Good! Address the warnings to improve further.
 ```
 
 ---
@@ -302,7 +302,7 @@ devinsight report
 **Output:**
 
 ```
-📝 Generating Report...
+ Generating Report...
 
 ✓ Report generated successfully!
 
@@ -313,7 +313,7 @@ The generated report (`devinsight-report.md`) can be viewed in any Markdown view
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 devinsight/
@@ -336,7 +336,7 @@ devinsight/
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **[Commander.js](https://github.com/tj/commander.js)** - CLI framework for command parsing
 - **[simple-git](https://github.com/steveukx/git-js)** - Git integration
@@ -347,7 +347,7 @@ devinsight/
 
 ---
 
-## 🤖 GitHub Copilot CLI Usage
+##  GitHub Copilot CLI Usage
 
 This project was developed with assistance from **GitHub Copilot CLI** to accelerate development and improve code quality.
 
@@ -433,7 +433,7 @@ Using Copilot CLI reduced development time by approximately **40-50%** by:
 
 ---
 
-## 🎨 Code Quality
+##  Code Quality
 
 ### Best Practices Implemented
 
@@ -447,7 +447,7 @@ Using Copilot CLI reduced development time by approximately **40-50%** by:
 
 ---
 
-## 🚦 Error Handling
+##  Error Handling
 
 DevInsight CLI handles common errors gracefully:
 
@@ -460,26 +460,26 @@ DevInsight CLI handles common errors gracefully:
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Interactive Mode
 
 ```
-🔍 DevInsight CLI - Interactive Mode
+ DevInsight CLI - Interactive Mode
 
 ? What would you like to do? (Use arrow keys)
-❯ 📊 Analyze Repository
-  📈 Developer Dashboard
-  💡 Smart Insights
-  🏥 Health Check
-  📝 Generate Report
-  ❌ Exit
+❯  Analyze Repository
+   Developer Dashboard
+   Smart Insights
+   Health Check
+   Generate Report
+   Exit
 ```
 
 ### Health Check Output
 
 ```
-🏥 Repository Health Check
+ Repository Health Check
 
 ✓ Passed Checks:
   ✓ Git repository initialized
@@ -487,13 +487,13 @@ DevInsight CLI handles common errors gracefully:
   ✓ package.json exists
 
 ═══ Health Score ═══
-🎉 100% (7/7 checks passed)
-🌟 Excellent! Your repository is in great shape!
+ 100% (7/7 checks passed)
+ Excellent! Your repository is in great shape!
 ```
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -505,13 +505,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Built with ❤️ using Node.js
 - Enhanced with GitHub Copilot CLI
@@ -519,7 +519,7 @@ This project is licensed under the MIT License.
 
 ---
 
-## 📞 Support
+##  Support
 
 If you encounter any issues or have questions:
 
