@@ -107,18 +107,18 @@ async function showInteractiveMenu() {
       name: "choice",
       message: "What would you like to do?",
       choices: [
-        { name: "📊 Analyze Repository", value: "analyze" },
-        { name: "📈 Developer Dashboard", value: "dashboard" },
-        { name: "💡 Smart Insights", value: "insights" },
-        { name: "🏥 Health Check", value: "health" },
-        { name: "📝 Generate Report", value: "report" },
-        { name: "❌ Exit", value: "exit" },
+        { name: " Analyze Repository", value: "analyze" },
+        { name: " Developer Dashboard", value: "dashboard" },
+        { name: " Smart Insights", value: "insights" },
+        { name: " Health Check", value: "health" },
+        { name: " Generate Report", value: "report" },
+        { name: " Exit", value: "exit" },
       ],
     },
   ]);
 
   if (choice === "exit") {
-    console.log(chalk.yellow("\nGoodbye! 👋\n"));
+    console.log(chalk.yellow("\nGoodbye! \n"));
     process.exit(0);
   }
 
@@ -154,7 +154,7 @@ async function showInteractiveMenu() {
     if (shouldContinue) {
       await showInteractiveMenu();
     } else {
-      console.log(chalk.yellow("\nGoodbye! 👋\n"));
+      console.log(chalk.yellow("\nGoodbye! \n"));
       process.exit(0);
     }
   } catch (error) {
