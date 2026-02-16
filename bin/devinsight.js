@@ -99,7 +99,7 @@ if (process.argv.length === 2) {
  * Display interactive menu for user selection
  */
 async function showInteractiveMenu() {
-  console.log(chalk.cyan.bold("\n🔍 DevInsight CLI - Interactive Mode\n"));
+  console.log(chalk.cyan.bold("\n DevInsight CLI - Interactive Mode\n"));
 
   const { choice } = await inquirer.prompt([
     {
