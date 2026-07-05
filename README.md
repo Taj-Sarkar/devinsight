@@ -12,14 +12,14 @@ DevInsight CLI helps developers understand their project structure, track Git ac
 
 ## Features
 
-- **📊 Repository Analysis** - Scan project structure, detect languages, and analyze dependencies
-- **📈 Developer Dashboard** - Track Git activity, commits, and file changes
-- **💡 Smart Insights** - Identify frequently modified files, large files, and refactor candidates
-- **🏥 Health Check** - Perform quality checks and get repository health scores
-- **📝 Report Generation** - Create comprehensive Markdown reports
-- **🎯 Interactive Mode** - User-friendly menu-driven interface
-- **📦 Dependency Analysis** - Parse and analyze package.json dependencies
-- **✅ Task Detection** - Find TODO, FIXME, and HACK comments across your codebase
+- ** Repository Analysis** - Scan project structure, detect languages, and analyze dependencies
+- ** Developer Dashboard** - Track Git activity, commits, and file changes
+- ** Smart Insights** - Identify frequently modified files, large files, and refactor candidates
+- ** Health Check** - Perform quality checks and get repository health scores
+- ** Report Generation** - Create comprehensive Markdown reports
+- ** Interactive Mode** - User-friendly menu-driven interface
+- ** Dependency Analysis** - Parse and analyze package.json dependencies
+- ** Task Detection** - Find TODO, FIXME, and HACK comments across your codebase
 
 ---
 
@@ -250,7 +250,7 @@ devinsight health
   ✓ package.json has scripts defined
   ✓ Dependency count is reasonable
 
-⚠️  Warnings:
+  Warnings:
 
  No test directory detected
    → Consider adding tests to improve code quality
@@ -424,13 +424,13 @@ Using Copilot CLI reduced development time by approximately **40-50%** by:
 
 ### Best Practices Implemented
 
-- ✅ **Modular Architecture** - Each command and utility has a single responsibility
-- ✅ **Async/Await** - Modern asynchronous patterns throughout
-- ✅ **Error Handling** - Graceful error handling with meaningful messages
-- ✅ **Clear Naming** - Descriptive variable and function names
-- ✅ **Comments** - Important logic is well-documented
-- ✅ **No Hardcoded Paths** - Dynamic path resolution
-- ✅ **Performance** - Efficient file scanning with exclusion patterns
+-  **Modular Architecture** - Each command and utility has a single responsibility
+-  **Async/Await** - Modern asynchronous patterns throughout
+-  **Error Handling** - Graceful error handling with meaningful messages
+-  **Clear Naming** - Descriptive variable and function names
+-  **Comments** - Important logic is well-documented
+-  **No Hardcoded Paths** - Dynamic path resolution
+-  **Performance** - Efficient file scanning with exclusion patterns
 
 ---
 
